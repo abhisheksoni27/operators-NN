@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "webassembly.h": "c",
+        "module.h": "c",
+        "opencv.h": "c",
+        "cv_image.h": "c",
+        "matrix_mat.h": "c"
+    }
+}
