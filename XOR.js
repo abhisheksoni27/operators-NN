@@ -6,8 +6,6 @@ const {
     FCLayer,
     ConvLayer,
     PoolLayer,
-    Filter,
-    Neuron,
     Module
 } = require("jsnet").webassembly();
 
@@ -34,9 +32,6 @@ global.onWASMLoaded = () => {
 
     net.train(data, {
         epochs: 10000,
-        log:false
     });
-
-    console.log(net.forward([1,1]))
 
 }
